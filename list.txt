@@ -2,15 +2,20 @@
 # BLOCCO COMPLETO SERVIZI AI
 # =========================================================
 
-# ---------- OpenAI / ChatGPT ----------
+# ============================
+# BLOCCO CHATGPT
+# ============================
+
+0.0.0.0 chat.openai.com
+0.0.0.0 auth.openai.com
+0.0.0.0 platform.openai.com
+0.0.0.0 api.openai.com
 0.0.0.0 openai.com
 0.0.0.0 www.openai.com
-0.0.0.0 chat.openai.com
-0.0.0.0 api.openai.com
-0.0.0.0 platform.openai.com
-0.0.0.0 auth.openai.com
-127.0.0.1 openai.com
+
 127.0.0.1 chat.openai.com
+127.0.0.1 auth.openai.com
+127.0.0.1 platform.openai.com
 
 # ---------- Anthropic Claude ----------
 0.0.0.0 claude.ai
@@ -34,12 +39,18 @@
 0.0.0.0 sydney.bing.com
 127.0.0.1 copilot.microsoft.com
 
-# ---------- Perplexity ----------
+# ============================
+# BLOCCO PERPLEXITY
+# ============================
+
 0.0.0.0 perplexity.ai
 0.0.0.0 www.perplexity.ai
 0.0.0.0 api.perplexity.ai
 0.0.0.0 cdn.perplexity.ai
+0.0.0.0 www2.perplexity.ai
+
 127.0.0.1 perplexity.ai
+127.0.0.1 www.perplexity.ai
 
 # ---------- Poe ----------
 0.0.0.0 poe.com
