@@ -104,6 +104,11 @@
 0.0.0.0 deepai.org
 127.0.0.1 deepai.org
 
+0.0.0.0 deepseek.com
+127.0.0.1 deepseek.com
+
+0.0.0.0 chat.deepseek.com
+127.0.0.1 chat.deepseek.com
 # ---------- Playground AI ----------
 0.0.0.0 playgroundai.com
 127.0.0.1 playgroundai.com
