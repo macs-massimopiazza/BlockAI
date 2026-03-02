@@ -1,0 +1,43 @@
+# ===== BLOCCO AI =====
+
+# OpenAI / ChatGPT
+0.0.0.0 chat.openai.com
+0.0.0.0 openai.com
+0.0.0.0 api.openai.com
+0.0.0.0 platform.openai.com
+
+# Google Gemini
+0.0.0.0 gemini.google.com
+0.0.0.0 bard.google.com
+0.0.0.0 generativelanguage.googleapis.com
+
+# Microsoft Copilot
+0.0.0.0 copilot.microsoft.com
+0.0.0.0 bing.com
+0.0.0.0 edgeservices.bing.com
+
+# Claude (Anthropic)
+0.0.0.0 claude.ai
+0.0.0.0 api.anthropic.com
+
+# Perplexity
+0.0.0.0 perplexity.ai
+
+# Midjourney
+0.0.0.0 midjourney.com
+0.0.0.0 discord.com
+
+# Stability AI
+0.0.0.0 stability.ai
+0.0.0.0 api.stability.ai
+
+# Poe
+0.0.0.0 poe.com
+
+# Hugging Face
+0.0.0.0 huggingface.co
+0.0.0.0 api-inference.huggingface.co
+
+# Grok (X AI)
+0.0.0.0 x.ai
+0.0.0.0 grok.x.ai
