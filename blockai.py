@@ -1,3 +1,12 @@
+import os
+import subprocess
+
+# Percorso del file hosts su Windows
+hosts_path = r"C:\Windows\System32\drivers\etc\hosts"
+
+# Testo da aggiungere
+hosts_entries = """
+
 # BLOCCO SERVIZI AI
 0.0.0.0 chat.openai.com
 0.0.0.0 auth.openai.com
@@ -108,3 +117,30 @@
 
 0.0.0.0 pizzagpt.it
 0.0.0.0 www.pizzagpt.it
+"""
+
+def main():
+    # Verifica dei privilegi di amministratore
+    if not ctypes.windll.shell32.IsUserAnAdmin():
+        print("Esegui questo script come amministratore!")
+        return
+
+    # Apre il file hosts in modalità append
+    try:
+        with open(hosts_path, "a", encoding="utf-8") as file:
+            file.write(hosts_entries)
+        print("Hosts aggiornato con successo!")
+    except PermissionError:
+        print("Errore di permessi: esegui come amministratore.")
+        return
+
+    # Flush DNS
+    try:
+        subprocess.run(["ipconfig", "/flushdns"], check=True)
+        print("Cache DNS svuotata.")
+    except subprocess.CalledProcessError:
+        print("Errore durante il flush della cache DNS.")
+
+if __name__ == "__main__":
+    import ctypes
+    main()
