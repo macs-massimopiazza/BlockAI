@@ -12,7 +12,9 @@
 0.0.0.0 api.openai.com
 0.0.0.0 openai.com
 0.0.0.0 www.openai.com
-
+0.0.0.0 www.chatgpt.com
+0.0.0.0 chat.chatgpt.com
+0.0.0.0 chatgpt.com
 127.0.0.1 chat.openai.com
 127.0.0.1 auth.openai.com
 127.0.0.1 platform.openai.com
@@ -45,6 +47,7 @@
 
 0.0.0.0 perplexity.ai
 0.0.0.0 www.perplexity.ai
+0.0.0.0 chat.perplexity.ai
 0.0.0.0 api.perplexity.ai
 0.0.0.0 cdn.perplexity.ai
 0.0.0.0 www2.perplexity.ai
@@ -61,6 +64,7 @@
 0.0.0.0 x.ai
 0.0.0.0 grok.x.ai
 0.0.0.0 api.x.ai
+0.0.0.0 grok.com
 127.0.0.1 x.ai
 
 # ---------- HuggingFace ----------
@@ -127,3 +131,7 @@
 # ---------- Cohere ----------
 0.0.0.0 cohere.ai
 127.0.0.1 cohere.ai
+
+# altre
+0.0.0.0 pizzagpt.it
+0.0.0.0 www.pizzagpt.it
