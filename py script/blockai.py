@@ -117,6 +117,8 @@ hosts_entries = """
 
 0.0.0.0 pizzagpt.it
 0.0.0.0 www.pizzagpt.it
+0.0.0.0 www.google.com
+0.0.0.0 google.com
 """
 
 def main():
