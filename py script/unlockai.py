@@ -64,7 +64,11 @@ domains_to_remove = [
     "together.ai",
     "cohere.ai",
     "pizzagpt.it",
-    "www.pizzagpt.it"
+    "www.pizzagpt.it",
+    "www.google.com",
+    "google.com",
+    "www.use.ai",
+    "use.ai"
 ]
 
 def main():

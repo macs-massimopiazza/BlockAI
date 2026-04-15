@@ -108,3 +108,7 @@
 
 0.0.0.0 pizzagpt.it
 0.0.0.0 www.pizzagpt.it
+0.0.0.0 www.google.com
+0.0.0.0 google.com
+0.0.0.0 www.use.ai
+0.0.0.0 use.ai
